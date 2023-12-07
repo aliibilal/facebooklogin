@@ -1,7 +1,7 @@
 import Image from "next/image"
 export default function Home() {
   return (
-    <div className="bg-gray-200 h-screen flex items-center justify-center">
+    <div className="bg-gray-200 h-screen flex items-center justify-center flex-wrap">
       <div className="text-3xl w-1/2 px-10">
         <Image
           src={"/pictures/fcebook.svg"}
